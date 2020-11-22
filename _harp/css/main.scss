@@ -1,16 +1,21 @@
+ul{
+  list-style: none;
+}
+
 body{
-  font-family: "Helvetica";
+  font-family: "Roboto";
   text-align: center;
   padding: 50px 20px 0;
-  background: #f4f4f7;
-  color: #444;
+  background: rgb(158,0,0);
+  background: radial-gradient(circle, rgba(158,0,0,1) 0%, rgba(0,0,0,1) 100%);  
+  color: rgb(241, 241, 241);
   margin: 0;
+  background-position: center;
 }
 
 h1{
-  font-size: 65px;
+  font-size: 40px;
   line-height: 1.2em;
-  border-bottom: #CCC solid 1px;
   padding: 20px 0;
 }
 
@@ -18,7 +23,53 @@ h3{
   font-weight: 300;
 }
 
+.cont-media{
+  
+}
+
 .contenedor-logos{
-  display: block;
+  display: flex;
   position: relative;
+  justify-content: center;
+}
+
+.cont-cuerpo{
+  .titulo{
+
+  }
+  .intro{
+    width: 50%;
+    margin: 20px auto;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+}
+
+.cont-galeria{
+  .marco{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    amp-img{
+      width: 150px;
+    }
+  }
+}
+
+footer{
+  .titulo{
+    margin: 25px 0;
+    font-weight: bold;
+  }
+  .menu-redes-icons{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+    li{
+      margin: 0 20px;
+    }
+  }
 }
